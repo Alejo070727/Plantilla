@@ -30,7 +30,7 @@ def mensajes(update,context):
         infotext+= f'📦Partes: {partes}\n'
         infotext+= f'🏋️‍♂️Peso: {peso}\n'
         infotext+= '⏰Vence: 24h\n\n\n'
-        infotext+= f'        <a href="{link}">📥 Descargar txt aquí 📥</a>\n\n\n'
+        infotext+= f'        <a href="{link}">📥Descargar txt aquí📥</a>\n\n\n'
         infotext+= '        ↘️⬇️⬇️⬇️⬇️⬇️⬇️↙️\n'
         infotext+= '        ➡️@YoutubeNube ⬅️\n'
         infotext+= '        ↗️⬆️⬆️⬆️⬆️⬆️⬆️⬆️\n\n'
