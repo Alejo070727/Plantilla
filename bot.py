@@ -27,12 +27,12 @@ def mensajes(update,context):
     		capitulo = name[2]
     		nombre = name[1]
   		  youtuber = name[3]
-   		 calidad = name[4]
-   		 partes = name[5]
+   		  calidad = name[4]
+   		  partes = name[5]
   		  peso = name[6]
-   		 link = name[7]
+   		  link = name[7]
    	 else:
-   	 	infotext = f'✏️Nombre: {nombre}\n'
+   	 	  infotext = f'✏️Nombre: {nombre}\n'
         infotext+= f'🎬Episodio: {episodio}\n'
         infotext+= f'🆔YouTuber: {youtuber}\n'
         infotext+= f'Calidad: {calidad}\n'
