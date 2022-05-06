@@ -24,12 +24,12 @@ def mensajes(update,context):
     		msg = update.message.text
     		name = str(msg).split('')
     		nombre = name[1]
-   		 episodio = name[2]
-  		  youtuber = name[3]
-   		 calidad = name[4]
-   		 partes = name[5]
-  		  peso = name[6]
-   		 link = name[7]
+   		    episodio = name[2]
+  		    youtuber = name[3]
+   		    calidad = name[4]
+   		    partes = name[5]
+  		    peso = name[6]
+   		    link = name[7]
    	 else:
    	 	infotext = f'✏️<b>Nombre:</b> {nombre}\n'     
    	 	infotext+= f'🎬<b>Episodio:</b> {episodio}\n'        
