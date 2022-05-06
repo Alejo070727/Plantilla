@@ -32,20 +32,20 @@ def mensajes(update,context):
   		  peso = name[6]
    		 link = name[7]
    	 else:
-   	 	infotext = f'✏️<b>Nombre:</b> {nombre}\n'     
-   	 	infotext+= f'🎬<b>Episodio:</b> {capitulo}\n'        
-   	 	infotext+= f'🆔<b>YouTuber:</b> {youtuber}\n'
-    	    infotext+= f'📺<b>Calidad:</b> {calidad}\n'
-      	  infotext+= f'📦<b>Partes:</b> {partes}\n'
-   	     infotext+= f'🏋️‍♂️<b>Peso:</b> {peso}\n'
-   	     infotext+= '⏰<b>Vence:</b> 24h\n\n\n'
-   	     infotext+= f'        <a href="{link}">📥 Descargar txt aquí 📥</a>\n\n\n'
-  	      infotext+= '        ↘️⬇️⬇️⬇️⬇️⬇️⬇️↙️\n'
-  	      infotext+= '        ➡️@YoutubeNube ⬅️\n'
-  	      infotext+= '        ↗️⬆️⬆️⬆️⬆️⬆️⬆️⬆️\n\n'
-   	     infotext+= '   💎Resubida solo por VIP💎\n'
-     	   infotext+= '               @Danny5367'
-        	sendHtml(update,infotext)
+   	 	infotext = f'✏️Nombre: {nombre}\n'
+        infotext+= f'🎬Episodio: {episodio}\n'
+        infotext+= f'🆔YouTuber: {youtuber}\n'
+        infotext+= f'Calidad: {calidad}\n'
+        infotext+= f'📦Partes: {partes}\n'
+        infotext+= f'🏋️‍♂️Peso: {peso}\n'
+        infotext+= '⏰Vence: 24h\n\n\n'
+        infotext+= f'        <a href="{link}">📥 Descargar txt aquí 📥</a>\n\n\n'
+        infotext+= '        ↘️⬇️⬇️⬇️⬇️⬇️⬇️↙️\n'
+        infotext+= '        ➡️@YoutubeNube ⬅️\n'
+        infotext+= '        ↗️⬆️⬆️⬆️⬆️⬆️⬆️⬆️\n\n'
+        infotext+= '   💎Resubida solo por VIP💎\n'
+        infotext+= '               @Danny5367'
+        sendHtml(update,infotext)
         except:
         	sendMessage(update, 'Hubo un error al crear la plantilla, vuelva a intentarlo')
         return	
