@@ -21,18 +21,18 @@ def mensajes(update,context):
         return
     elif '/tamp' in msg:
     	try:
-    		username = update.message.chat.username
-    		msg = update.message.text
-    		name = str(msg).split('')
-    		capitulo = name[2]
-    		nombre = name[1]
-  		  youtuber = name[3]
-   		  calidad = name[4]
-   		  partes = name[5]
-  		  peso = name[6]
-   		  link = name[7]
+    	 username = update.message.chat.username
+    	 msg = update.message.text
+    	 name = str(msg).split('')
+    	 capitulo = name[2]
+    	 nombre = name[1]
+  		 youtuber = name[3]
+   		 calidad = name[4]
+   		 partes = name[5]
+  		 peso = name[6]
+   		 link = name[7]
    	 else:
-   	 	  infotext = f'✏️Nombre: {nombre}\n'
+   	 	infotext = f'✏️Nombre: {nombre}\n'
         infotext+= f'🎬Episodio: {episodio}\n'
         infotext+= f'🆔YouTuber: {youtuber}\n'
         infotext+= f'Calidad: {calidad}\n'
